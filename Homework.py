@@ -9,4 +9,4 @@ discount= 0.4*price
 quanity= 60
 shipping = 3+((quantity-1)*0.75)
 
-print('wholesale cost=', (price-discount)*quantity+shipping'))
+print('wholesale cost=', (price-discount)*quantity+shipping')
