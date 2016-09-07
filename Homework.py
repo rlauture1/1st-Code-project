@@ -17,3 +17,4 @@ print('7:%d' % (end_minutes))
 
 percent= ((89-82)/82)*100
 print('%.1f%%' % percent)
+#collaborated with Theresa, Duncan, Hunter, and Wendy
