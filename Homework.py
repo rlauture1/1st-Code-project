@@ -8,3 +8,9 @@ quantity= 60
 shipping = 3+((quantity-1)*0.75)
 
 print('wholesale cost=', (price-discount)*quantity+shipping)
+
+easy_time= 2*8.25
+tempo_time= 3*7.2
+total= easy_time + tiempo_time
+end_minutes = total - 8
+print('7:%d' % (end_minutes))
