@@ -14,3 +14,6 @@ tempo_time= 3*7.2
 total= easy_time + tempo_time
 end_minutes = total - 8
 print('7:%d' % (end_minutes))
+
+precent= ((89-82)/82)*100
+print('%.1f%%' % percent)
