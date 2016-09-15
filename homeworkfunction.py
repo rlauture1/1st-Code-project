@@ -1,12 +1,14 @@
-import cmath
+import math
 
-a= float(input('Enter a: '))
-b= float(input('Enter b: '))
-c= float(input('Enter c: '))
+def quadratic(a,b,c):
+    A = b**2-4*a*c 
+    if A >=0:
+        X1 = ((-b + math.sqrt(A))/2*a)
+        X2 = ((-b - math.sqrt(A))/2*a)
+        return X1,X2
 
-d=(b**2)- (4*a*c)
+    else:
+            print('No Real Number Soultion')
 
-solution1 = (-b-cmath.sqrt(d))/(2*a)
-solution2 = (-b+cmath.sqrt(d))/(2*a)
-
-print('The solutions are {0} and {1}'.format(solution1,solution2))
+print(quadratic(2,2,2))
+print(quadratic(1,5,6))
