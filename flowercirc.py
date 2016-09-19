@@ -40,3 +40,112 @@ flowercircle.lt(61)
 circle(flowercircle,200)
 
 turtle.mainloop()
+
+
+
+import turtle
+import math
+triangle = turtle.Turtle()
+triangle.pensize (4)
+
+print(triangle) 
+
+def twotris(t):
+   t.lt(30)
+   t.fd(200)
+   t.rt(120)
+   t.fd(200)
+   t.rt(120)
+   t.fd(400)
+   t.lt(120)
+   t.fd(200)
+   t.lt(120)
+   t.fd(200)
+   
+twotris(triangle) 
+
+triangle.lt(60)
+twotris(triangle)
+
+triangle.fd(200)
+triangle.lt(91)
+triangle.circle(200)
+triangle.lt(90)
+triangle.fd(100)
+triangle.circle(55)
+
+triangle.fd(100)
+triangle.lt(30)
+
+triangle.fd(100)
+triangle.circle(55)
+
+triangle.lt(180)
+triangle.fd(100)
+
+triangle.rt(270)
+triangle.fd(100)
+triangle.circle(55)
+
+triangle.lt(180)
+triangle.fd(100)
+
+triangle.rt(270)
+triangle.fd(100)
+triangle.circle(55)
+
+
+
+
+
+
+turtle.mainloop()
+
+
+
+turtle.mainloop()
+
+
+
+import turtle
+import math
+yinyan = turtle.Turtle()
+yinyan.pensize(4)
+
+print(yinyan)
+
+def yin(radius, color1, color2):
+    yinyan.width(3)
+    yinyan.color("black", color1)
+    yinyan.begin_fill()
+    yinyan.circle(radius/2., 180)
+    yinyan.circle(radius, 180)
+    yinyan.left(180)
+    yinyan.circle(-radius/2., 180)
+    yinyan.end_fill()
+    yinyan.left(90)
+    yinyan.up()
+    yinyan.forward(radius*0.35)
+    yinyan.right(90)
+    yinyan.down()
+    yinyan.color(color1, color2)
+    yinyan.begin_fill()
+    yinyan.circle(radius*0.15)
+    yinyan.end_fill()
+    yinyan.left(90)
+    yinyan.up()
+    yinyan.backward(radius*0.35)
+    yinyan.down()
+    yinyan.left(90)
+
+def main():
+    reset()
+    yin(yinyan, 200, "black", "white")
+    yin(yinyan, 200, "white", "black")
+    ht()
+  
+    return "Done!"
+
+    if _yinyan_ == '_main_':
+        yinyan.main()
+        yinyan.mainloop()
