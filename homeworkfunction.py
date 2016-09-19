@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 import math
+=======
+# This is not a function
+'''
+You need to begin with
+def quadratic_equation(a, b, c):
+    ...
+'''
+
+import cmath
+>>>>>>> 9f53440f8e47383679dd3517e90b640a4679b3d3
 
 def quadratic(a,b,c):
     A = b**2-4*a*c 
