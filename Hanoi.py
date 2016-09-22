@@ -4,6 +4,5 @@ def tower(height, source, bridge, destination):
        print('%s --> %s' %(source, destination))
        tower(height - 1, bridge, source, destination)
 
-    tower(4,'A','B','C')
+tower(4,'A','B','C')
 
-    
