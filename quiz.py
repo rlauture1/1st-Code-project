@@ -32,14 +32,14 @@ years (for example, 2000)
 
 def leap_year(year):
     if year%4 == 0 and year%100 != 0:
-        return year, "not a leap year"
+        return False
     elif year%400 == 0:
-        return year, "leap year"
+        return True
     elif year%4 != 0:
-        return year, "not a leap year"
+        return False
     else:
-        return year, 'not a leap year'
-    pass 
+        return True
+     
 
 
 print(leap_year(1900))
@@ -61,7 +61,7 @@ def sum_squares(n):
     for i in range(1,n+1):
         result += i * i
     return result
-    pass
+    
 
 print(sum_squares(1))
 print(sum_squares(100))

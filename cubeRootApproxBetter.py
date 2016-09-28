@@ -1,4 +1,4 @@
-cube = 29
+cube = 27
 epsilon = 0.001
 guess = 0.0
 increment = 0.01
