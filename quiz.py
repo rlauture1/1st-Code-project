@@ -34,9 +34,9 @@ def leap_year(year):
     if year%4 == 0 and year%100 != 0:
         return year, "not a leap year"
     elif year%400 == 0:
-        return year, "is a leap year"
+        return year, "leap year"
     elif year%4 != 0:
-        return year, "is not a leap year"
+        return year, "not a leap year"
     else:
         return year, 'not a leap year'
     pass 
@@ -65,3 +65,4 @@ def sum_squares(n):
 
 print(sum_squares(1))
 print(sum_squares(100))
+
