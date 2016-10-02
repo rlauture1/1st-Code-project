@@ -1,12 +1,3 @@
-# fin = open('words.txt')
-# line = repr(fin.readline())
-# # https://docs.python.org/3/library/functions.html#repr
-
-# fin = open('words.txt')
-# for line in fin:
-#     word = line.strip()
-#     print(word)
-
 
 def read_long_words():
     """
@@ -82,4 +73,3 @@ return True
 print(is_abecedarian('abs'))
 print(is_abecedarian('college'))
 
-exercise 3 finish for hw
