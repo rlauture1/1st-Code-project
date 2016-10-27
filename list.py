@@ -91,7 +91,7 @@ def is_anagram(word1, word2):
     True
     >>> is_anagram([1, 2, 2], [2,1, 2] 
     True
-    """"
+    """
     item1 = list(word1)
     item2 = list(word2)
     for obj in item1:
@@ -101,19 +101,19 @@ def is_anagram(word1, word2):
             return False
     return True
 
-def has_duplicates:
+def has_duplicates():
    """Returns Trues if any element appears more than once in a sequence.
 
-    s: string or list
+    #s: string or list
 
     returns: bool
-    """"
-    for i in s:
-        if s.count(i)>1:
-            return True 
-        return False 
+    """
+for i in s:
+    if s.count(i)>1:
+        return True 
+    return False 
 
-def has_adjacent_duplicates
+def has_adjacent_duplicates():
     """"Returns True if there are two adjacent elements. 
 
     s: string or list
@@ -122,7 +122,7 @@ def has_adjacent_duplicates
 
     output:
 
-    >>> print(has_adjacent_duplicates('cba'))""""
+    >>> print(has_adjacent_duplicates('cba'))"""
 
     new = list(s)
     for i in range(len(new)-1)
