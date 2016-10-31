@@ -28,3 +28,12 @@ Another_point = Point()
 Another_point.x = 150
 Another_point.y = 0
 print(point_in_circle(Rose_circle, Another_point))
+
+class Rectangle: 
+
+Rose_rectangle = Rectangle()
+Rose_rectangle.width = 20
+Rose_rectangle.height = 35
+Rose_rectangle_.corner = Point()
+Rose_rectangle.x = 1
+Rose_rectangle.y = 1 
